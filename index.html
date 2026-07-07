@@ -11,25 +11,20 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Retro display font (headings only) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -66,6 +61,9 @@
             <a class="nav-link js-scroll" href="#service">Skills</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll" href="#work">Work</a>
           </li>
           <li class="nav-item">
@@ -81,14 +79,14 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+  <div id="home" class="intro route bg-image pixel-bg" style="background-image: url(img/intro-bg-pixel.jpg)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">George Trakas</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer,Web Developer,Game Designer,Repair Specialist</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer,Game Designer,Web Developer,Repair Specialist</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -104,41 +102,41 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
-                  <div class="col-sm-6 col-md-5">
+                  <div class="col-sm-6 col-md-6">
                     <div class="about-img">
-                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      <img src="img/pixel_g-crop.png" class="img-fluid rounded b-shadow-a" alt="George Trakas pixel avatar">
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-7">
+                  <div class="col-sm-6 col-md-6">
                     <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>George Trakas</span></p>
-                      <p><span class="title-s">Date of birth: </span> <span>June 19, 1982</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Software Engineer & Technology Specialist</span></p>
-                      <p><span class="title-s">Email: </span> <span>gntrakas@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(+30) 6944-914-816</span></p>
+                      <p><span class="title-s">Name </span> <span>George Trakas</span></p>
+                      <p><span class="title-s">Date of birth </span> <span>June 19, 1982</span></p>
+                      <p><span class="title-s">Profile </span> <span>Software Engineer at Gloman &amp; Independent Game Developer</span></p>
+                      <p><span class="title-s">Email </span> <span>gntrakas at gmail.com</span></p>
+                      <p><span class="title-s">Phone </span> <span>(+30) 6944-914-816</span></p>
                     </div>
                   </div>
                 </div>
                 <div class="skill-mf">
                   <p class="title-s">Competencies</p>
-                  <span>C#</span> <span class="pull-right">90%</span>
+                  <div class="skill-row"><span>C#</span> <span class="skill-percent">90%</span></div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="85" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>Godot Engine</span> <span class="pull-right">75%</span>
+                  <div class="skill-row"><span>Godot Engine</span> <span class="skill-percent">80%</span></div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-row"><span>Web Development</span> <span class="skill-percent">75%</span></div>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
-                  <span>Web Development</span> <span class="pull-right">65%</span>
+                  <div class="skill-row"><span>Hardware</span> <span class="skill-percent">85%</span></div>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>Hardware</span> <span class="pull-right">85%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
                       aria-valuemax="100"></div>
                   </div>
                 </div>
@@ -151,8 +149,10 @@
                     </h5>
                   </div>
                   <p class="lead">
-                    15+ years of experience in the IT industry as hardware repair technician, e-shop administrator, sales representative and software developer. 
-                    Excellent knowledge of C#, OOP and Godot Engine. Currently working on promoting <a href="https://play.google.com/store/apps/details?id=org.gtrax.Zooels">Zooels</a>, a match-3 casual ad-supported game, and polishing my second game, 
+                    Full-time Software Engineer at <strong>Gloman</strong>, with 15+ years of experience in the IT industry spanning
+                    hardware repair, e-shop administration, sales, and software development.
+                    Excellent knowledge of C#, OOP and Godot Engine. Alongside my day job I develop <a href="https://play.google.com/store/apps/details?id=org.gtrax.Zooels">Zooels</a>,
+                    a match-3 casual ad-supported game, and I'm polishing my second game,
                     a full length, open world, sandbox, procedurally generated roguelike RPG.
                   </p>
                 </div>
@@ -173,9 +173,6 @@
             <h3 class="title-a">
               Skills
             </h3>
-            <p class="subtitle-a">
-              Technical Profile
-            </p>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -184,7 +181,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
+              <span class="ico-circle"><img src="img/icons/monitor.png" class="pixel-icon" alt=""></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Operating Systems</h2>
@@ -197,7 +194,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+              <span class="ico-circle"><img src="img/icons/phone.png" class="pixel-icon" alt=""></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Web & Mobile</h2>
@@ -210,7 +207,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code"></i></span>
+              <span class="ico-circle"><img src="img/icons/code.png" class="pixel-icon" alt=""></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Coding</h2>
@@ -223,7 +220,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-ios-game-controller-b-outline"></i></span>
+              <span class="ico-circle"><img src="img/icons/gamedev.png" class="pixel-icon" alt=""></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Game Dev</h2>
@@ -236,7 +233,7 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-gear-a"></i></span>
+              <span class="ico-circle"><img src="img/icons/hardware.png" class="pixel-icon" alt=""></span>
             </div>
             <div class="service-content">
               <h2 class="s-title">Hardware Repair</h2>
@@ -246,62 +243,85 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/icons/ai.png" class="pixel-icon" alt=""></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">AI &amp; LLM Engineering</h2>
+              <p class="s-description text-center">
+                Prompt engineering, LLM APIs (OpenAI, Anthropic/Claude), RAG pipelines, AI agents, embeddings, Claude Code / agentic tooling
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!--/ Section Services End /-->
 
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
+  <!--/ Section Projects Star /-->
+  <section id="projects" class="portfolio-mf sect-pt4 route">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-game-controller-a-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">2</p>
-              <span class="counter-text">GAMES CREATED</span>
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Projects
+            </h3>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="work-box">
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Zooels</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Match-3 casual mobile game &middot; Godot / GDScript</span>
+                  </div>
+                  <p class="s-description pt-2">
+                    A match-3 casual, ad-supported puzzle game published on Google Play. Built solo end-to-end:
+                    gameplay, monetization (AdMob), and analytics.
+                  </p>
+                  <p class="pt-2">
+                    <a class="btn btn-primary btn-sm" href="https://play.google.com/store/apps/details?id=org.gtrax.Zooels" target="_blank" rel="noopener">Get it on Google Play</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">15</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-android-desktop"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">15000</p>
-              <span class="counter-text">DEVICES DIAGNOSED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-happy-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">1200</p>
-              <span class="counter-text">DEVICES REPAIRED</span>
+
+        <div class="col-md-6">
+          <div class="work-box">
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Unnamed Project</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Open world &middot; Procedurally generated &middot; Godot / C#</span>
+                  </div>
+                  <p class="s-description pt-2">
+                    A full-length, open world, sandbox, procedurally generated roguelike RPG &mdash; currently in development.
+                    NPC AI and world generation systems are the current focus.
+                  </p>
+                  <p class="pt-2">
+                    <span class="btn btn-sm btn-coming-soon">Coming Soon</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <!--/ Section Projects End /-->
 
   <!--/ Section Portfolio Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
@@ -320,34 +340,22 @@
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/work-1.jpg" alt="" class="img-fluid">
-            </div>
-            <a href="img/gloman.png" data-lightbox="gallery-gloman">
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Gloman</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Freelance Web Developer</span> <span class="w-date">September 2023 - Now</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
+            <!-- TODO(George): expand with specific achievements/projects once you have them written up -->
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Gloman</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Software Engineer (Full-time)</span> <span class="w-date">September 2023 - Now</span>
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/zooels.png" alt="" class="img-fluid">
-            </div>
             <a href="img/gameDev.png" data-lightbox="gallery-zooels">
               <div class="work-content">
                 <div class="row">
@@ -370,9 +378,6 @@
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/techawayImage.png" alt="" class="img-fluid">
-            </div>
             <a href="img/techaway.png" data-lightbox="gallery-ta">
               <div class="work-content">
                 <div class="row">
@@ -395,9 +400,6 @@
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/service.png" alt="" class="img-fluid">
-            </div>
             <a href="img/pls.png" data-lightbox="gallery-ta">
               <div class="work-content">
                 <div class="row">
@@ -420,9 +422,6 @@
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/opapImage.png" alt="" class="img-fluid">
-            </div>
             <a href="img/opap.png" data-lightbox="gallery-ta">
               <div class="work-content">
                 <div class="row">
@@ -445,9 +444,6 @@
 
         <div class="col-md-4">
           <div class="work-box">
-            <div class="work-img">
-              <img src="img/edunetImage.png" alt="" class="img-fluid">
-            </div>
             <a href="img/eduNet.png" data-lightbox="gallery-ta">
               <div class="work-content">
                 <div class="row">
@@ -473,45 +469,6 @@
   </section>
   <!--/ Section Portfolio End /-->
 
-  <!--/ Section Testimonials Star 
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Xavi Alonso</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Marta Socrate</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-/-->
   <!--/ Section Blog Star /-->
   <section id="blog" class="blog-mf sect-pt4 route">
     <div class="container">
@@ -679,7 +636,7 @@
   </section>
 
   <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+  <section class="paralax-mf footer-paralax bg-image pixel-bg sect-mt4 route" style="background-image: url(img/intro-bg-pixel.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
@@ -695,6 +652,7 @@
                   </div>
                   <div class="socials">
                     <ul>
+                      <li><a href="mailto:gntrakas@gmail.com"><span class="ico-circle"><i class="ion-email"></i></span></a></li>
                       <li><a href="https://linktr.ee/gtrax"><span class="ico-circle"><i class="ion-link"></i></span></a></li>
                       <li><a href="https://www.linkedin.com/in/george-trakas/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
                     </ul>
@@ -708,7 +666,7 @@
                   </div>
                   <div class="more-info">
                     <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Gizi 3, Thessaloniki, 54640</li>
+                      <li><span class="ion-ios-location"></span> Gkizi 3, Thessaloniki, 54640</li>
                       <li><span class="ion-ios-telephone"></span> (+30) 6944-914-816</li>
                       <li><span class="ion-email"></span> gntrakas at gmail.com</li>
                     </ul>
@@ -725,16 +683,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="copyright-box">
-              <p class="copyright">&copy; Copyright 2023 <strong>GtraxGames</strong>. All Rights Reserved</p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
+              <p class="copyright">&copy; Copyright <span id="copyright-year"></span> <strong>GtraxGames</strong>. All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -743,7 +692,7 @@
   </section>
   <!--/ Section Contact-footer End /-->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="ion-chevron-up"></i></a>
   <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
@@ -754,13 +703,8 @@
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/counterup/jquery.waypoints.min.js"></script>
   <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
 </body>
