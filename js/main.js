@@ -4,6 +4,20 @@
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
+
+  var emailUser = ['g', 'n', 't', 'r', 'a', 'k', 'a', 's'].join('');
+  var emailDomain = ['gmail', 'com'].join('.');
+  var email = emailUser + '@' + emailDomain;
+
+  var emailLink = document.querySelector('.js-email-link');
+  if (emailLink) {
+    emailLink.href = 'mailto:' + email;
+  }
+
+  var emailTextEls = document.querySelectorAll('.js-email-text');
+  for (var i = 0; i < emailTextEls.length; i++) {
+    emailTextEls[i].textContent = email;
+  }
 })();
 
 (function ($) {
